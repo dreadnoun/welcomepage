@@ -1,0 +1,179 @@
+@media (max-width:400px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 10px;
+    }
+    body{
+        background-color: rgb(31, 31, 31);
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        background-color: black;
+        color: #fff;
+    }
+    .logo{
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    ul,li{
+        list-style: 0;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    select{
+        border: 0;
+        font-size: 5px;
+    }
+
+
+    /* block1 */
+    .block1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50vh;
+        padding: 15px;
+    }
+    .box-img{
+        width: 350px;
+        height: 250px;
+        background-image: url('./imgaes/school-img-5.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .box-info{
+        width: 350px;
+        height: 140px;
+        text-align: center;
+        color: #fff;
+    }
+    .button-calc{
+        padding: 8px;
+        color: #fff;
+        background-color: blue;
+        border: 0;
+        margin-top: 10px;
+    }
+
+
+
+    /* block2 */
+    .block2{
+        height: 37vh;
+        padding: 15px;
+        background-color: aqua;
+    }
+    .box-imgs{
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: blue;
+    }
+    .box-imgs-2{
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 25px;
+        background-color: blue;
+    }
+
+
+    .box-imgaes1{
+        width: 100px;
+        height: 100px;
+        background-image: url('./imgaes/school-img-5.jpg');
+        background-size: cover;
+    }
+
+
+    .box-imgaes2{
+        width: 100px;
+        height: 100px;
+        background-image: url('./imgaes/scool-img-2.jfif');
+        background-size: cover;
+    }
+
+
+    .box-imgaes3{
+        width: 100px;
+        height: 100px;
+        background-image: url('./imgaes/school-img-3.webp');
+        background-size: cover;
+    }
+
+
+    .box-imgaes4{
+        width: 100px;
+        height: 100px;
+        background-image: url('./imgaes/school-img.webp');
+        background-size: cover;
+    }
+
+
+    .box-imgaes5{
+        width: 100px;
+        height: 100px;
+        background-image: url('./imgaes/school-img-5.jpg');
+        background-size: cover;
+    }
+
+
+    .box-imgaes6{
+        width: 100px;
+        height: 100px;
+        background-image: url('./imgaes/school-img-6.jpg');
+        background-size: cover;
+    }
+
+    .footer{
+        height:9vh;
+        padding: 10px;
+        display:  flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box-footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 200px;
+        height: 30px;
+        background-color: aqua;
+    }
+    
+
+    .box-icon1{
+        width: 20px;
+        height: 20px;
+        background-image: url('./imgaes/telegram-icon.png');
+        background-size: cover;
+    }
+    .box-icon2{
+        width: 20px;
+        height: 20px;
+        background-image: url('./imgaes/you-tube-icon.png');
+        background-size: cover;
+        background-position: -4px;
+    }
+    .box-icon3{
+        width: 20px;
+        height: 20px;
+        background-image: url('./imgaes/twitch.png');
+        background-size: cover;
+    }
+}
